@@ -13,10 +13,10 @@ import com.master.spring.spring2proj1.basic.res3.Woman;
 		"com.master.spring.spring2proj1.basic.res1", "com.master.spring.spring2proj1.basic.res2",
 		"com.master.spring.spring2proj1.basic.res3" })
 @SpringBootApplication
-public class Spring2proj2BasicApplication {
+public class Spring2proj1BasicApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext applicationContext = SpringApplication.run(Spring2proj2BasicApplication.class, args);
+		ApplicationContext applicationContext = SpringApplication.run(Spring2proj1BasicApplication.class, args);
 
 		BinarySearchImpl binarySearchImpl = applicationContext.getBean(BinarySearchImpl.class);
 		BinarySearchImpl binarySearchImpl2 = applicationContext.getBean(BinarySearchImpl.class);

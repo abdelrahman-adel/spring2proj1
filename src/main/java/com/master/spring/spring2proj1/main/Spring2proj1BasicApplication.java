@@ -9,9 +9,7 @@ import com.master.spring.spring2proj1.basic.res1.BinarySearchImpl;
 import com.master.spring.spring2proj1.basic.res2.Driver;
 import com.master.spring.spring2proj1.basic.res3.Woman;
 
-@ComponentScan(basePackages = { "com.master.spring.spring2proj1.basic.main",
-		"com.master.spring.spring2proj1.basic.res1", "com.master.spring.spring2proj1.basic.res2",
-		"com.master.spring.spring2proj1.basic.res3" })
+@ComponentScan(basePackages = { "com.master.spring.spring2proj1.basic" })
 @SpringBootApplication
 public class Spring2proj1BasicApplication {
 

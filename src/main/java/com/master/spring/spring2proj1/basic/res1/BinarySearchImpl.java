@@ -1,4 +1,4 @@
-package com.master.spring.spring2proj1.main;
+package com.master.spring.spring2proj1.basic.res1;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
